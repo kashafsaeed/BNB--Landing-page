@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: quicksand, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 ,h2, h3, h4, h5, h6 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #080808;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Main Content Start*/
+
+.main-content {
+    
+    margin: 0 auto;
+
+
+}
+.main-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+}
+
+/* main content end */
+
+/*New arrivals section*/
+.new-arrivals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*featured-in section*/
+
+
+.marqquee-container {
+    background-color: #080808;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+/* Shop Section */
+
+.shop-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.shop-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+
+}
+.shop {
+    flex: 1 1 calc(33.333% - 20px);
+   
+}
+.shop img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/*follow us section*/
+
+.follow-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: #FFFFFF;
+}
+
+
+
+.follow-us img {
+    width: 16%;
+    height: 59%px;
+}
+
+.instagram-feed {
+      flex-wrap: wrap;
+      display:inline-block;
+}
+
+.instagram-feed img {
+    display: inline-block;
+}
+
+
