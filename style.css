@@ -101,26 +101,27 @@ h1 ,h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-.marqquee-container {
-    padding: 20px;
+.marquee-container {
+    /* padding: 10px; */
     text-align: center;
     overflow: hidden;
     
 
 }
-.marqquee-container h2 {
+.marquee-container h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
 }
 
-.marqquee-container img {
-    width: 100px;
-    height: auto;
-    margin: 0 10px;
-    display: inline-block;
-    transition: transform 0.3s ease;
-}
 
+.marquee-container img {
+    width: 140px;   
+    height: 80px;   
+    object-fit: contain; 
+    margin: 0 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
 
 
 
@@ -160,8 +161,6 @@ h1 ,h2, h3, h4, h5, h6 {
     gap: 20px;
     background-color: #FFFFFF;
 }
-
-
 
 .follow-us img {
     width: 16%;
