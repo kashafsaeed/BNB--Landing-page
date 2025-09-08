@@ -180,10 +180,14 @@ h1 ,h2, h3, h4, h5, h6 {
     background-color: #080808;
     width: 40px ;
     height: 40px;
-    color: aliceblue;
+ 
     
 }
+.corner p {
+    color: #fff;
+    
 
+}
 
 
 /*featured-in section*/
