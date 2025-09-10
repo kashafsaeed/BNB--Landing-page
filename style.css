@@ -11,7 +11,7 @@ body {
     color: #333;
 }
 
-h1 ,h2, h3, h4, h5, h6 {
+h1 ,h2, h3, h4, h5 {
     font-size: 2em;
     color: #333;
     text-align: center;
@@ -26,9 +26,11 @@ h1 ,h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-
-
-
+h6 {
+    color: #333;
+    text-align: center;
+    font-size: large;
+}
 
 
 
@@ -162,32 +164,99 @@ h1 ,h2, h3, h4, h5, h6 {
     font-size: 0.75em;
     color: #87878F;
  }
-.divin {
-    background-color: blueviolet;
+.divin1 {
+    background-color: #F6F6F8;
     padding: 10px 10px  ;
     margin: 0px 60px 0px 60px;
     color: black ;
     display: flex;
-   
+    
+  
 }
-.divin p{
+.divin1 p{
     color: black ;
     text-align: start;
     display: contents;
 }
 
-.corner{
-    background-color: #080808;
-    width: 40px ;
-    height: 40px;
- 
-    
+
+.divin2 {
+    background-color: #F6F6F8;
+    padding: 10px 10px  ;
+    margin: 0px 60px 0px 60px;
+    color: black ;
+    display: flex;
+    margin-top: 10px ;
 }
-.corner p {
-    color: #fff;
+.divin2 p{
+    color: black ;
+    text-align: start;
+    display: contents;
+}
+.divin3 {
+    background-color: #F6F6F8;
+    padding: 10px 10px  ;
+    margin: 0px 60px 0px 60px;
+    color: black ;
+    display: flex;
+    margin-top: 10px ;
+
+  
+}
+.divin3 p{
+    color: black ;
+    text-align: start;
+    display: contents;
+}
+
+/*icon sec*/
+
+.icon-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* padding: 80px; */
+}
+
+.icons1  {
+    text-align: center;
+    /* background-color: darkgreen; */
+    
     
 
 }
+/* .icons2 {
+    background-color: indianred;
+}
+.icons3 {
+    background-color: rgb(25, 122, 106);
+} */
+
+.font {
+    border-radius: 50% !important;
+    border: 1px solid #F6821D;
+    padding: 15px ;
+
+}
+.icons-set {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-top: 60px;
+    
+}
+/*icons end*/
+
+
+
+
+
+
+
+
+
+ 
 
 
 /*featured-in section*/
